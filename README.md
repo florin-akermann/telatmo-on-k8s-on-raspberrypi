@@ -1,6 +1,6 @@
 ### Netatmo indoor climate metrics on grafana: Running telegraf, influxdb and grafana on a self-hosted kubernetes raspberry-pi-'cluster'.
 
-Yesterday I uploaded a [utility container](https://hub.docker.com/repository/docker/floak/telatmo) to poll data from the [Netatmo API](https://dev.netatmo.com/).
+Yesterday I uploaded a [utility container](https://hub.docker.com/r/floak/telatmo) to poll data from the [Netatmo API](https://dev.netatmo.com/).
 Today I would like to illustrate how I am using it at home.
 It runs on kubernetes together with influxdb and grafana.
 
